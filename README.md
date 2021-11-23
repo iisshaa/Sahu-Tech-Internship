@@ -4,7 +4,5 @@ These are the Web Development tasks provided to me by Sahu Technologies during t
 Template 2:
 [contact 2.pdf](https://github.com/iisshaa/Sahu-Tech-Internship/files/7590644/contact.2.pdf)
 Template 12:
-[web page layout 10.pdf](https://github.com/iisshaa/Sahu-Tech-Internship/files/7590645/web.page.layout.10.pdf)
-
-
+[web page layout 1.pdf](https://github.com/iisshaa/Sahu-Tech-Internship/files/7590657/web.page.layout.1.pdf)
 
