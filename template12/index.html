@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOATSPOT-SAHU INTERNSHIP-BY ISHA ROSHAN</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link  rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+  <style>
+  *{
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  h2{
+      text-align:center;
+      color:white;
+      font-weight:bold;
+
+  }
+  .lead{
+      text-align:center;
+      font-size:16px;
+      font-weight:light;
+  }
+  .highlight{
+      color:#8200e6;
+  }
+  .underline1{
+      text-align:center;
+      background-color: #242424;
+      width:100px;
+  }
+  .underline2{
+      text-align:center;
+    background-color: #242424;
+      width:50px;
+  }
+   
+</style>
+
+</head>
+<body>
+<!-- navbar -->
+  <header class="pt-3 pb-3">
+            <div class="logo">
+            <a href='#'>Search</a>
+            <a href='#'>About Us</a>
+            <a href='#'>Contact Us</a>
+            </div>
+            <nav class="navbar navbar-expand-sm>
+              <button class="navbar-toggler type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+                <ul  class="navbar-nav d-flex flex-row me-1">
+                       <li class="nav-item"><a href='#'><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Login</a></li>
+                    <li class="nav-item"><a href='#'><i class="fa-solid fa-lock-open"></i>&nbsp;Register</a></li>
+                </ul>
+            </nav>
+        </header>
+<nav class="navbar navbar-expand-sm navbar-light bg-white pt-2 pb-2">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Brand -->
+<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+
+<!-- Links -->
+<div class="collapse navbar-collapse justify-content-center" id="nav-content">     
+<ul class="navbar-nav d-flex flex-row me-1">
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;" href="#">HOME</a>
+<div class="dropdown-menu"  style="margin-left:255px;"aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;" href="#">SEARCH</a>
+<div class="dropdown-menu"  style="margin-left:355px;" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="color:black;" href="#">COMPARE</a>
+<div class="dropdown-menu"  style="margin-left:455px;" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="color:black;" href="#">REVIEWS</a>
+<div class="dropdown-menu"  style="margin-left:557px;" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="color:black;" href="#">SERVICES</a>
+<div class="dropdown-menu"  style="margin-left:661px;"aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;" href="#">PAGES</a>
+<div class="dropdown-menu"  style="margin-left:759px;" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+ <a class="nav-link pt-3" style="color:black;" aria-current="page" href="#">QUOTES US</a>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-3 dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;" href="#">USERS</a>
+<div class="dropdown-menu"  style="margin-left:935px;"aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="#">Menu</a>
+             <a class="dropdown-item" href="#">Menu</a>
+             </div>
+</li>
+<li class="nav-item">
+<a class="nav-link pt-2 pl-4" style="color:black" href="#"><button id="button-nav" style="background-color:#8200e6;border: none;color:white;width:140px;height:35px;">SELL YOUR BOAT</button></a>
+</li>
+</ul>
+</nav>
+<div class="jumbotron bg-cover text-white full-height" id="jumbo"> 
+  <div class="container">
+  <br><br><br><br>
+  <h2>Over 95,00,000 Classified BoatsListing</h2>
+  <p class="lead">Search from largest classifieds & Post unlimited classifieds free!</p><br>
+  <center>
+  <div class="mx-auto mb-4" style="width:50%;">
+<div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+ 
+  </div>     
+  <br><br><br>
+  </div>
+  </div>
+<div class="heading-panel mt-2 text-center">
+  <h5><b>Explore Ads&nbsp;<span class="highlight">By Your</span>&nbsp;City</b></h5>
+  <hr class="underline1 mb-0"></hr>
+  <hr class="underline2 mt-1" ></hr>
+  <small class="text-muted">Eu delicata usu. Vix te putant utroque, ludus fabellas  duo eu, his dico ut debet<br>consectetuer.</small><br>
+ </div>
+ <main class="grid mt-4">
+ <div class="col-md-6 grid-img1" style="width:300px; height:200px;">
+  <a href="#"><h5 class="city">New York (1)</h5><br>
+<p class="country">United States</p>
+</div></a>
+<div class="col-md-6 grid-img2" style="width:300px; height:200px;">
+  <a href="#"><h5 class="city">California (1)</h5><br>
+<p class="country">United States</p>
+</div></a>
+<div class="col-md-6 grid-img3" style="width:300px; height:200px;">
+  <a href="#"><h5 class="city">Washington (0)</h5><br>
+<p class="country">United States</p>
+</div></a>
+<div class="col-md-6 grid-img4" style="width:300px; height:200px;">
+  <a href="#"><h5 class="city">Colorado (1)</h5><br>
+<p class="country">United States</p>
+</div></a>
+<div class="col-md-6 grid-img5" style="width:300px; height:200px;">
+  <a href="#"><h5 class="city">Long Beach (1)</h5><br>
+<p class="country">New Jersy</p>
+</div></a>
+<div class="col-md-6 grid-img6" style="width:300px; height:200px;">
+  <a href="#"><h5 class="city">Arizona (1)</h5><br>
+<p class="country">United States</p>
+</div></a>
+
+</main>
+
+</div>
+<div class="section2">
+<div class="heading-panel mt-5 text-center">
+<br><h5 class="mt-2" style="color:black;"><b>Latest&nbsp;<span class="highlight">Featured</span>&nbsp;Boats</b></h5>
+   <hr class="underline1 mb-0"></hr>
+  <hr class="underline2 mt-1" ></hr>
+  <small class="text-muted">Eu delicata usu. Vix te putant utroque, ludus fabellas  duo eu, his dico ut debet<br>consectetuer.</small><br>
+    </div>
+    <br>
+      <div class="row">
+      <div class="column1" style="width: 50%; background-color:#f1f1f1;">
+  <p class="lead mt-4 ml-5" style="text-align:left;"><i>Want To Sale Your Boat?</i></p>
+  <h4 class="ml-5" style="color:#8200e6;text-align:left;">Are you looking for a Boat?</h4>
+  <p class="text-muted ml-5 mb-0" style="text-align:left;">Search your car in our inventory and request a<br>quote on the vehicle of your choosing sonu.</p>
+  <br><br><br><br><img class="boat" src="img/boat1.png">
+</div>
+  <div class="column2 pb-5"  style="width: 48.8%;background-color:#ededed;">
+  <p class="lead mt-4 ml-5" style="text-align:left"><i>Want To Sale Your Boat?</i></p>
+  <h4 class="ml-5" style="color:#8200e6;text-align:left;">Do you want to sell your Boat?</h4>
+  <p class="text-muted ml-5 mb-0" style="text-align:left;">Request search your car in our inventory and a<br> quote on the vehicle of your choosing.</p><br><br><br><br><img  class="boat" src="img/boat2.png">
+ </div>
+ </div>
+ </div>
+<div class="heading-panel mt-2 text-center"><br>
+ <h5 class="mt-4" style="color:black;"><b>Latest&nbsp;<span class="highlight">&nbsp;Trending</span>&nbsp;Ads</b></h5>
+   <hr class="underline1 mb-0"></hr>
+  <hr class="underline2 mt-1" ></hr>
+<small class="text-muted">Eu delicata usu. Vix te putant utroque, ludus fabellas  duo eu, his dico ut debet<br>consectetuer.</small><br>
+</div>
+<div class="card-deck mt-4">
+	<div class="col-md-4 col-sm-6 col-xs-12">
+  <div class="card">
+  <div class="image1"><br><br><br><br><br><br><br><br><br>
+   <a href="#"><span class="play"><i class="fa fa-play" aria-hidden="true"></i></span></a> <p id="pricetag"> $10,500(Fixed)</p> 
+</div>
+<div class="card-body">
+<h5 class="cardtext"><b>Nockamixon Boat</b></h5>
+<small class="text-muted"><i class="fa-solid fa-location-dot"></i>&nbsp;Long Beach,New Jersy, United States</small>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fa fa-eye" aria-hidden="true"></i> 1616 Views&nbsp;&nbsp;</i>&nbsp;<i class="fa fa-clock-o"></i> August 1, 2017</small>
+    </div>
+  </div>
+  </div>
+  	<div class="col-md-4 col-sm-6 col-xs-12">
+  <div class="card">
+<div class="image2"><br><br><br><br><br><br><br><br><br>
+ <a href="#"><span class="play"><i class="fa fa-play" aria-hidden="true"></i></span></a><p id="pricetag"> $76,500(Negotiable)</p>
+</div>
+    <div class="card-body">
+      <h5 class="cardtext"><b>Sale boats for sale</b></h5>
+    <small class="text-muted"><i class="fa-solid fa-location-dot"></i>&nbsp;Henderson,North Caroline,United States</small>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fa fa-eye" aria-hidden="true"></i> 2547 Views&nbsp;&nbsp;</i>&nbsp;<i class="fa fa-clock-o"></i> August 1, 2017</small>
+    </div>
+  </div>
+  </div>
+  	<div class="col-md-4 col-sm-6 col-xs-12">
+  <div class="card">
+  <div class="image3 "><br><br><br><br><br><br><br><br><br>
+   <a href="#"><span class="play"><i class="fa fa-play" aria-hidden="true"></i></span></a> <p id="pricetag"> Price On Call</p>
+</div>
+    <div class="card-body">
+      <h5 class="cardtext"><b>Horizon PC58 Yacht</b></h5>
+     <small class="text-muted"><i class="fa-solid fa-location-dot"></i>&nbsp;Manchester,New Hampshire,United States</small>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><i class="fa fa-eye" aria-hidden="true"></i> 824 Views&nbsp;&nbsp;</i>&nbsp;<i class="fa fa-clock-o"></i> August 1, 2017</small>
+    </div>
+    </div></div></div>
+    <div class="section4 mt-5">
+    <div class="row">
+    <div class="col-sm-3 pt-5 pb-5">
+    <h1><i class="fas fa-ship"></i></h1>
+    <h1 class="count">1238</h1>
+    <h6 style="color:white;">Total <span class="highlight">Boats</span></h6>
+    </div>
+    
+     <div class="col-sm-3  pt-5 pb-5">
+     <h1><i class="fas fa-id-badge"></i><br></h1>
+     <h1 class="count">821</h1>
+    <h6 style="color:white;">Total <span class="highlight">Dealers</span></h6>
+    </div>
+    
+     <div class="col-sm-3  pt-5 pb-5">
+     <h1><i class="far fa-heart"></i><br></h1>
+     <h1 class="count">1024</h1>
+    <h6 style="color:white;">Total <span class="highlight">Users</span></h6>
+    </div>
+    
+     <div class="col-sm-3 pt-5 pb-5">
+     <h1><i class="fas fa-globe-asia"></i></h1>
+     <h1 class="count">75</h1>
+    <h6 style="color:white;">Total <span class="highlight">Ads</span></h6>
+    </div>
+    </div>
+    </div>
+    <div class="heading-panel text-center">
+ <h5 class="mt-4" style="color:black;"><b>Latest&nbsp;<span class="highlight">Blog</span>&nbsp;Posts</b></h5>
+   <hr class="underline1 mb-0"></hr>
+  <hr class="underline2 mt-1" ></hr>
+  <small class="text-muted">Eu delicata usu. Vix te putant utroque, ludus fabellas  duo eu, his dico ut debet<br>consectetuer.</small><br>
+    </div>
+ <div class="col-md-12 col-xs-12 col-sm-12">
+   <br><br>
+			   <div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="blog-post">
+                            <div class="post-img"><a href="#"><img class="img-responsive" alt="blog1" src="img/blog1.jpg"></a></div>    	                            
+							 <div class="blog-content">
+							 <div class="user-preview">
+							  <a href="#"><img src="img/avtar.png" alt="Avatar" class="clip-circle"></a>
+                     		 </div>
+                              <div class="post-info">
+							 <small class="text-muted"> <a href="javascript:void(0);">June 30, 2017</a></small>
+							  <small class="text-muted">  <a href="javascript:void(0);">0 comments</a></small>
+							  </div><br>
+                              <h6 class="post-title">
+							  <a class="pl-3" href="#">Boats Producation For North</a></h6>
+							  <a class="pl-3" href="#"> <strong> Read More </strong></a>
+							  </p>
+                           </div>
+                        </div></div><div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="blog-post">
+                              	<div class="post-img"><a href="#">
+                    <img class="img-responsive" style="width:500px; height:260px;" alt="blog2" src="img/blog2.jpg"/></div>
+							 <div class="blog-content">
+							 <div class="user-preview">
+							  <a href="#"> <img class="img-circle resize" alt="Avatar" src="img/avtar.png"></a>
+                     		 </div>
+                              <div class="post-info">
+							   <small class="text-muted"> <a href="javascript:void(0);">June 30, 2017</a></small>
+							  <small class="text-muted">  <a href="javascript:void(0);">0 comments</a></small>
+							  </div><br>
+                              <h6 class="post-title">
+							  <a class="pl-3" href="#">We Hear: Boats RS Models Could</a></h6>
+							  <a class="pl-3" href="#"> <strong> Read More </strong></a>
+							  </p>
+                           </div>
+                        </div></div><div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="blog-post">
+                              	<div class="post-img"><a href="#">
+						<img class="img-responsive" style="height:260px;" alt="blog3" src="img/blog3.jpg"/></div>
+            	 <div class="blog-content">
+							 <div class="user-preview">
+							  <a href="#"> <img class="img-circle resize" alt="Avatar" src="img/avtar.png" /></a>
+                     		 </div>
+                              <div class="post-info">
+							   <small class="text-muted"> <a href="javascript:void(0);">June 30, 2017</a></small>
+							  <small class="text-muted">  <a href="javascript:void(0);">0 comments</a></small>
+							  </div><br>
+                              <h6 class="post-title">
+							  <a class="pl-3" href="#">Boats Are Fastest Freelancer 2 Se</a></h6>
+							  <a class="pl-3" href="#"> <strong> Read More </strong></a>
+							  </p>
+                           </div>
+                        </div></div>
+                        <br><br><br>
+                        <div class="section5">
+                       <div class="row pt-5 pb-5" style="background-color:rgba(245, 245, 245, 0.685);">
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p class="text-muted pl-4"><i>Why Choose Us?</i></p><br>
+                        <h5 class="pl-4" style="color:black;">OUR PREMIUM CLIENTS</h5>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                     <img src="img/clients.png">
+</div>
+</div>
+</div>
+<br><br><br><br><br><br>
+                        </div>
+                        <footer class="footer-bg white mt-5">
+    <div class="footer-top">
+       <div class="container">
+          <div class="row">
+                       <div class="col-md-3  col-sm-6 col-xs-12">
+                <div class="widget">
+                   <div class="logo pl-0;">
+                    <a href="#">
+			               <img src="img/logo.png" class="img-responsive" alt="Site Logo">
+             
+            </a>              
+                   </div>
+                   <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et dolor eget erat fringilla port.</small>
+       
+      <p class="ml-3"><a href="#"><img class="googleplay" src="img/googleplay.png"></a><a href="#"><img class="appstore" src="img/appstore.png"></a></small>
+                   
+            </div>
+             </div>
+                           <div class="col-md-2  col-sm-6 col-xs-12">
+                <div class="widget social-icons">
+                
+                <h6 style="color:black;">Follow Us</h6>
+                <ul class="text-muted" style="list-style-type: none;">
+                                                <li class="mb-1">
+                           <small> <a href="https://www.facebook.com"> <i class="fab fa-facebook-f"></i></a>&nbsp;Facebook</small>
+                        </li>
+                                                <li class="mb-1">
+                            <small><a href="https://www.twitter.com"> <i class="fab fa-twitter"></i></a>&nbsp;Twitter</small>
+                        </li class="mb-1">
+                                                <li class="mb-1">
+                            <small><a href="https://www.linkedin.com"> <i class="fab fa-linkedin-in"></i></a>&nbsp;Linkedin</small>
+                        </li>
+                                                <li class="mb-1">
+                           <small><a href="https://www.google.com"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a>Google</small>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+                            
+              
+                            <div class="col-md-2  col-sm-6 col-xs-12">
+              
+                      <div class="widget my-quicklinks">
+                        	<h6 style="color:black;">Quick Links</h6>
+                            <ul class="text-muted" style="list-style-type: none;">
+<li>
+<small><a class="text-muted" href="#">Sample Page</a></small>
+</li>
+<li>
+<small><a class="text-muted" href="#">About Us</a></small>
+</li>
+<li>
+<small><a class="text-muted" href="#">Blog</a></small>
+</li>
+<li>
+<small><a class="text-muted" href="#">Contact Us</a></small>
+</li>
+                      </div>                      
+			  </div>
+             <div class="col-md-5  col-sm-6 col-xs-12">
+                <div class="widget widget-newsletter">
+                   <h6 style="color:black;">Singup for Weekly Newsletter</h6>
+                   <div class="fieldset">
+                      <small class="text-muted">We may send you information about related events, webinars, products and services which we believe.</small>
+                                           <form>
+                         <input class="sb_email" name="sb_email" placeholder="Enter your email address" type="text" autocomplete="off" required>
+                         <input class="submit-btn" value="Submit" type="button">
+                        <input type="hidden"  value="footer_action" />
+                      </form>
+                                        </div>
+                </div>          
+           <div class="copyright">  
+            <small class="text-muted">Copyright 2017 © Theme Created By <a class="text-muted" href="#">ScriptsBundle</a> All Rights Reserved.
+                </small> <a class="mt-5" style="margin-left: 450px;" href="#jumbo"><i class="fas fa-chevron-up"></i></a>
+             </div>
+</div>
+       </div>
+    </div>
+</footer>	        
+  </div>
+</div>
+</div>
+</ul>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script>
+$('.count').counterUp({
+    time: 1000
+});
+</script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  </body>
+</html>
